@@ -41,22 +41,22 @@ Aura Themes is a Flutter-based mobile application that allows users to explore, 
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/aura-themes.git
+   git clone https://github.com/your-username/aura-themes.git
 
 2. Navigate to the project directory:
 
-cd aura-themes
+   cd aura-themes
 
 3. Install dependencies:
 
-flutter pub get
+   flutter pub get
 
 
 4. Connect your Firebase project (update google-services.json for Android and GoogleService-Info.plist for iOS).
 
 5. Run the app:
 
-flutter run
+   flutter run
 
 
 ## 📂 Project Structure
