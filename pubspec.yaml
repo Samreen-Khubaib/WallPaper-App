@@ -1,0 +1,308 @@
+name: themeapp
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.7.0
+  firebase_auth: ^5.3.2
+  shared_preferences: ^2.0.18
+  flutter_wallpaper_manager: ^0.0.4
+  permission_handler: ^11.3.1
+  flutter_shortcuts: ^1.3.0
+  video_player: ^2.4.5
+  async_wallpaper: ^2.1.0
+  flutter_cache_manager: ^3.3.0
+  path_provider: ^2.0.11
+  device_info_plus: ^11.1.1
+  device_apps: ^2.2.0
+  http: ^1.0.0
+  url_launcher: ^6.0.20
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/loginsignup.jpg
+    - assets/images/loading.jpg
+    - assets/images/appimage.png
+    - assets/images/theme3.jpg
+    - assets/images/sticker.png
+    - assets/images/fav.png
+    - assets/wallpapers/quote1.jpg
+    - assets/wallpapers/quote2.jpg
+    - assets/wallpapers/quote3.jpg
+    - assets/wallpapers/quote4.jpg
+    - assets/wallpapers/quote5.jpg
+    - assets/wallpapers/quote6.jpg
+    - assets/wallpapers/quote7.jpg
+    - assets/wallpapers/quote8.jpg
+    - assets/wallpapers/quote9.jpg
+    - assets/wallpapers/quote10.jpg
+    - assets/wallpapers/quote11.jpg
+    - assets/wallpapers/quote12.jpg
+    - assets/wallpapers/quote13.jpg
+    - assets/wallpapers/quote14.jpg
+    - assets/wallpapers/quote15.jpg
+    - assets/wallpapers/quote16.jpg
+    - assets/wallpapers/cute1.jpg
+    - assets/wallpapers/cute2.jpg
+    - assets/wallpapers/cute3.jpg
+    - assets/wallpapers/cute4.jpg
+    - assets/wallpapers/cute5.jpg
+    - assets/wallpapers/cute6.jpg
+    - assets/wallpapers/cute7.jpg
+    - assets/wallpapers/cute8.jpg
+    - assets/wallpapers/cute9.jpg
+    - assets/wallpapers/cute10.jpg
+    - assets/wallpapers/cute11.jpg
+    - assets/wallpapers/cute12.jpg
+    - assets/wallpapers/cute13.jpg
+    - assets/wallpapers/cute14.jpg
+    - assets/wallpapers/cute15.jpg
+    - assets/wallpapers/cute16.jpg
+    - assets/wallpapers/cute17.jpg
+    - assets/wallpapers/cute18.jpg
+    - assets/wallpapers/cute19.jpg
+    - assets/wallpapers/cute20.jpg
+    - assets/wallpapers/doodle1.jpg
+    - assets/wallpapers/doodle2.jpg
+    - assets/wallpapers/doodle3.jpg
+    - assets/wallpapers/doodle4.jpg
+    - assets/wallpapers/doodle5.jpg
+    - assets/wallpapers/doodle6.jpg
+    - assets/wallpapers/doodle7.jpg
+    - assets/wallpapers/doodle8.jpg
+    - assets/wallpapers/doodle9.jpg
+    - assets/wallpapers/doodle10.jpg
+    - assets/wallpapers/doodle11.jpg
+    - assets/wallpapers/doodle12.jpg
+    - assets/wallpapers/doodle13.jpg
+    - assets/wallpapers/doodle14.jpg
+    - assets/wallpapers/doodle15.jpg
+    - assets/wallpapers/doodle16.jpg
+    - assets/wallpapers/doodle17.jpg
+    - assets/wallpapers/doodle18.jpg
+    - assets/wallpapers/doodle19.jpg
+    - assets/wallpapers/doodle20.jpg
+    - assets/wallpapers/scenery1.jpg
+    - assets/wallpapers/scenery2.jpg
+    - assets/wallpapers/scenery3.jpg
+    - assets/wallpapers/scenery4.jpg
+    - assets/wallpapers/scenery5.jpg
+    - assets/wallpapers/scenery6.jpg
+    - assets/wallpapers/scenery7.jpg
+    - assets/wallpapers/scenery8.jpg
+    - assets/wallpapers/scenery9.jpg
+    - assets/wallpapers/scenery10.jpg
+    - assets/wallpapers/scenery11.jpg
+    - assets/wallpapers/scenery12.jpg
+    - assets/wallpapers/scenery13.jpg
+    - assets/wallpapers/scenery14.jpg
+    - assets/wallpapers/scenery15.jpg
+    - assets/wallpapers/scenery16.jpg
+    - assets/wallpapers/scenery17.jpg
+    - assets/wallpapers/scenery18.jpg
+    - assets/wallpapers/scenery19.jpg
+    - assets/wallpapers/scenery20.jpg
+    - assets/wallpapers/dark1.jpg
+    - assets/wallpapers/dark2.jpg
+    - assets/wallpapers/dark3.jpg
+    - assets/wallpapers/dark4.jpg
+    - assets/wallpapers/dark5.jpg
+    - assets/wallpapers/dark6.jpg
+    - assets/wallpapers/dark7.jpg
+    - assets/wallpapers/dark8.jpg
+    - assets/wallpapers/dark9.jpg
+    - assets/wallpapers/dark10.jpg
+    - assets/wallpapers/dark11.jpg
+    - assets/wallpapers/dark12.jpg
+    - assets/wallpapers/dark13.jpg
+    - assets/wallpapers/dark14.jpg
+    - assets/wallpapers/dark15.jpg
+    - assets/wallpapers/dark16.jpg
+    - assets/wallpapers/dark17.jpg
+    - assets/wallpapers/dark18.jpg
+    - assets/wallpapers/dark19.jpg
+    - assets/wallpapers/dark20.jpg
+    - assets/videos/warm1.mp4
+    - assets/videos/warm2.mp4
+    - assets/videos/warm3.mp4
+    - assets/videos/warm4.mp4
+    - assets/videos/warm5.mp4
+    - assets/videos/warm6.mp4
+    - assets/videos/warm7.mp4
+    - assets/videos/warm8.mp4
+    - assets/videos/warm9.mp4
+    - assets/videos/warm10.mp4
+    - assets/videos/warm11.mp4
+    - assets/videos/warm12.mp4
+    - assets/videos/warm13.mp4
+    - assets/videos/warm14.mp4
+    - assets/videos/warm15.mp4
+    - assets/videos/warm16.mp4
+    - assets/videos/warm17.mp4
+    - assets/videos/warm18.mp4
+    - assets/videos/warm19.mp4
+    - assets/videos/warm20.mp4
+    - assets/videos/nature1.mp4
+    - assets/videos/nature2.mp4
+    - assets/videos/nature3.mp4
+    - assets/videos/nature4.mp4
+    - assets/videos/nature5.mp4
+    - assets/videos/nature6.mp4
+    - assets/videos/nature7.mp4
+    - assets/videos/nature8.mp4
+    - assets/videos/nature9.mp4
+    - assets/videos/nature10.mp4
+    - assets/videos/nature11.mp4
+    - assets/videos/nature12.mp4
+    - assets/videos/nature13.mp4
+    - assets/videos/nature14.mp4
+    - assets/videos/anime1.mp4
+    - assets/videos/anime2.mp4
+    - assets/videos/anime3.mp4
+    - assets/videos/anime4.mp4
+    - assets/videos/anime5.mp4
+    - assets/videos/anime6.mp4
+    - assets/videos/anime7.mp4
+    - assets/videos/anime8.mp4
+    - assets/videos/anime9.mp4
+    - assets/videos/anime10.mp4
+    - assets/dynamic/anime1.jpg
+    - assets/dynamic/anime2.jpg
+    - assets/dynamic/anime3.jpg
+    - assets/dynamic/anime4.jpg
+    - assets/dynamic/anime5.jpg
+    - assets/dynamic/anime6.jpg
+    - assets/dynamic/anime7.jpg
+    - assets/dynamic/anime8.jpg
+    - assets/dynamic/anime9.jpg
+    - assets/dynamic/anime10.jpg
+    - assets/dynamic/nature1.jpg
+    - assets/dynamic/nature2.jpg
+    - assets/dynamic/nature3.jpg
+    - assets/dynamic/nature4.jpg
+    - assets/dynamic/nature5.jpg
+    - assets/dynamic/nature6.jpg
+    - assets/dynamic/nature7.jpg
+    - assets/dynamic/nature8.jpg
+    - assets/dynamic/nature9.jpg
+    - assets/dynamic/nature10.jpg
+    - assets/dynamic/nature11.jpg
+    - assets/dynamic/nature12.jpg
+    - assets/dynamic/nature13.jpg
+    - assets/dynamic/nature14.jpg
+    - assets/dynamic/warm1.jpg
+    - assets/dynamic/warm2.jpg
+    - assets/dynamic/warm3.jpg
+    - assets/dynamic/warm4.jpg
+    - assets/dynamic/warm5.jpg
+    - assets/dynamic/warm6.jpg
+    - assets/dynamic/warm7.jpg
+    - assets/dynamic/warm8.jpg
+    - assets/dynamic/warm9.jpg
+    - assets/dynamic/warm10.jpg
+    - assets/dynamic/warm11.jpg
+    - assets/dynamic/warm12.jpg
+    - assets/dynamic/warm13.jpg
+    - assets/dynamic/warm14.jpg
+    - assets/dynamic/warm15.jpg
+    - assets/dynamic/warm16.jpg
+    - assets/dynamic/warm17.jpg
+    - assets/dynamic/warm18.jpg
+    - assets/dynamic/warm19.jpg
+    - assets/dynamic/warm20.jpg
+
+
+
+
+
+
+    # - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+      - family: Cavolini
+        fonts:
+          - asset: assets/fonts/CAVOLINI.TTF
+            weight: 700
+
+      - family: BaguetScript
+        fonts:
+         - asset: assets/fonts/baguet-script-regular.otf
+           weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+
+dependency_overrides:
+  async: ^2.12.0
+  boolean_selector: ^2.1.2
+  characters: ^1.3.1
+  clock: ^1.1.2
+  collection: ^1.19.1

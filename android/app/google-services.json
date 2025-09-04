@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739459395370",
+    "project_id": "themeapp-15b45",
+    "storage_bucket": "themeapp-15b45.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739459395370:android:ce400116d268a2fc8af853",
+        "android_client_info": {
+          "package_name": "com.example.themeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDru_UXJ9OzWwmN_1M24gHFEGSsrmB69GM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
